@@ -2,6 +2,7 @@
 # I create this library for myself.
 # Others can use on their own risk.
 # Open to suggestions and collaborations.
+# The operations are not controlled.
 
 def calcParity128(a: int):
 	a = (a&0xffffffffffffffff)^(a>>64)
